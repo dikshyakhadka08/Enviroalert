@@ -1,0 +1,91 @@
+/* Contact Us Section */
+#contact {
+    padding: 80px 20px;
+    background-color: #e9f7ff; /* Light blue background */
+    border-radius: 10px;
+}
+
+.contact-info, .contact-form {
+    background-color: #ffffff; /* White background for info and form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.section-heading h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #2c3e50; /* Dark blue */
+    font-weight: 600;
+}
+
+.section-heading h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #1abc9c; /* Aqua green */
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-details .contact-item {
+    margin-bottom: 20px;
+}
+
+.contact-details .contact-item i {
+    color: #3498db; /* Blue for icons */
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contact-form h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form-row .form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bdc3c7; /* Light gray border */
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    border-color: #1abc9c; /* Aqua green on focus */
+    outline: none;
+}
+
+.main-button-icon {
+    background-color: #1abc9c; /* Aqua green */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.main-button-icon:hover {
+    background-color: #16a085; /* Darker aqua green on hover */
+}
+
+.contact-info p, .contact-form p {
+    font-family: 'Poppins', sans-serif;
+    color: #34495e; /* Dark gray */
+}
+
+.contact-info a {
+    color: #3498db; /* Blue links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    color: #2980b9; /* Darker blue on hover */
+}
